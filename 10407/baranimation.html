@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bar animation</title>
+    <style>
+    .container {
+        position: relative;
+        top: 100px;
+        width: 600px;
+        height: 30px;
+        background-color: beige;
+        border-radius: 15px;
+    }
+
+    .movingabar {
+        position: relative;
+        top: 100px;
+        width: 100px;
+        height: 30px;
+        background-color: rgb(255, 208, 108);
+        border-radius: 15px;
+        animation: barani 1.5s ease-in-out infinite alternate-reverse;
+    }
+
+    @keyframes barani {
+    0% { 
+         transform: matrix(0);
+     }    
+    50% {
+        width: 150px;
+        background-color: palevioletred
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+     <div class="movingabar"</div>    
+    </div>
+</body>
+    <div>
+     <nav>
+        <ul>
+           
+            </ul>
+        </nav>    
+    </div>
+</html>

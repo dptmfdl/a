@@ -63,11 +63,16 @@ body {
   }
 }
 
+.buttons {
+  position: absolute;
+  bottom: ;
+}
 
 
 .next1,
 .next2,
 .next3 {
+  bottom: 50px;
   width: 80px;
   height: 35px;
   background-color: white;
